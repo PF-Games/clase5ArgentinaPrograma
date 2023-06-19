@@ -152,17 +152,20 @@ nuestroTitulo.innerText = 'Hola Pablo'
 const mediaLinks = document.querySelectorAll('li');
 console.log(mediaLinks);
 
-for(let i=0;i<mediaLinks.length;i++){
-    console.log(mediaLinks[i].innerText);
-    mediaLinks[i].innerText = 'Hola';
-}
+
+setInterval(function(){
+    nuestroTitulo.innerText = String(Math.random());
+
+}, 1000);
+
+
 
 
 
 // TAREA: Ahora utilizá console.log para ver la cantidad de 
 // elementos li que hay con mediaLinks.length
 
-
+console.log(mediaLinks.length)
 
 
 
@@ -171,7 +174,10 @@ for(let i=0;i<mediaLinks.length;i++){
 //      sobre cada item de mediaLinks y mostralos en pantalla con console.log
 
 
-
+for(let i=0;i<mediaLinks.length;i++){
+    console.log(mediaLinks);
+    
+}
 
 
 
@@ -193,7 +199,8 @@ for(let i=0;i<mediaLinks.length;i++){
 // y utilizá console.log para mostrarlo.
 
 
-
+'h2'.textContent;
+console.log('h2'.textContent);
 
 
 
@@ -232,7 +239,7 @@ for(let i=0;i<mediaLinks.length;i++){
 // TAREA: Actualizá el valor del atributo 'src' de nuestra etiqueta 'img' a "img/kittens.jpeg".
 
 
-
+ourTwitter.id = "sorpresa";
 
 
 
