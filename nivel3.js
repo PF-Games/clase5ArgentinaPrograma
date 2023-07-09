@@ -153,10 +153,6 @@ const mediaLinks = document.querySelectorAll('li');
 console.log(mediaLinks);
 
 
-setInterval(function(){
-    nuestroTitulo.innerText = String(Math.random());
-
-}, 1000);
 
 
 
@@ -239,7 +235,7 @@ console.log('h2'.textContent);
 // TAREA: Actualizá el valor del atributo 'src' de nuestra etiqueta 'img' a "img/kittens.jpeg".
 
 
-ourTwitter.id = "sorpresa";
+
 
 
 
