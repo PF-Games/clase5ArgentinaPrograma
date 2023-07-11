@@ -170,7 +170,7 @@ console.log(mediaLinks.length)
 //      sobre cada item de mediaLinks y mostralos en pantalla con console.log
 
 
-for(let i=0;i<mediaLinks.length;i++){
+for(let i=0; i<mediaLinks.length; i++){
     console.log(mediaLinks);
     
 }
@@ -195,6 +195,7 @@ for(let i=0;i<mediaLinks.length;i++){
 // y utilizá console.log para mostrarlo.
 
 
+
 'h2'.textContent;
 console.log('h2'.textContent);
 
@@ -217,7 +218,7 @@ console.log('h2'.textContent);
 // TAREA: Hagamos un nuevo título! Cambiá el contenido de nuestro 'h1' y ponele lo que quieras.
 
 
-
+nuestroTitulo.textContent = 'Hola Fabricio';
 
 
 /*
@@ -234,8 +235,8 @@ console.log('h2'.textContent);
 
 // TAREA: Actualizá el valor del atributo 'src' de nuestra etiqueta 'img' a "img/kittens.jpeg".
 
-
-
+document.querySelector('img').src = 'img/kittens.jpeg'
+document.querySelector('img').alt = 'Gatitos'
 
 
 
@@ -256,6 +257,9 @@ console.log('h2'.textContent);
     const nuestroTwitter = document.querySelector('.twitter');
     nuestroTwitter.style.backgroundColor = 'white';
 */
+
+nuestroTitulo.style.backgroundColor = 'orange'
+nuestroTitulo.style.fontSize = '120px'
 
 // Tarea: Obtené cualquier elemento de la página y cambiale algunos estilos.
 
@@ -289,6 +293,10 @@ console.log('h2'.textContent);
 //
 // P.S. También les podés dar estilos al nuevo nodo que creaste.
 
+
+const nodoImagen = document.createElement('img');
+nodoImagen.src = 'img/woman_bw.jpg';
+document.querySelector('header').appendChild(nodoImagen);
 
 
 ////////////////////////////////////////////////////////////////////////////
