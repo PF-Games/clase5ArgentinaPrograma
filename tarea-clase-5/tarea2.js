@@ -6,7 +6,7 @@
 // Y va a cambiar el <h1> para decir "Bienvenido, nombreDeUsuario"!
 
 
-document.querySelector('#entrada-bar').onclick = function(){
+document.querySelector('#entrada-bar').onsubmit = function(){
     const edad = Number(document.querySelector('#edad-usuario').value);
     const nombre = document.querySelector('#nombre-usuario').value;
  
